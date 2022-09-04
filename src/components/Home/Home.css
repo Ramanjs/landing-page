@@ -1,0 +1,19 @@
+.home {
+  justify-content: center;
+  align-items: center;
+}
+
+.home h3 {
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.home h1 {
+  margin: 10px 0;
+}
+
+.home p {
+  max-width: 50%;
+  text-align: center;
+  line-height: 1.4em;
+}
