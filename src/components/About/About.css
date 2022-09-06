@@ -3,8 +3,13 @@
   justify-content: center;
 }
 
+.about h2 {
+  text-align: center;
+}
+
 .about p {
   max-width: 50%;
+  text-align: center;
 }
 
 .about-cards {
@@ -29,4 +34,24 @@
   max-width: 100%;
   text-align: center;
   font-size: calc(0.25rem + 1vmin);
+}
+
+@media screen and (max-width: 768px) {
+
+  .about p {
+    max-width: 80%;
+  }
+
+  .about h2 {
+    max-width: 80%;
+  }
+  .about-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-card {
+    width: 80%;
+    margin: 0.5em 0;
+  }
 }
