@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/landing-page/static/css/main.08646489.css",
+    "main.js": "/landing-page/static/js/main.e75c0807.js",
+    "index.html": "/landing-page/index.html",
+    "static/media/bg.svg": "/landing-page/static/media/bg.0aa5e6ffe834642786a5.svg",
+    "static/media/hamburger.svg": "/landing-page/static/media/hamburger.6cfe33348d1093aa7fe3a67319ff25a6.svg",
+    "main.08646489.css.map": "/landing-page/static/css/main.08646489.css.map",
+    "main.e75c0807.js.map": "/landing-page/static/js/main.e75c0807.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08646489.css",
+    "static/js/main.e75c0807.js"
+  ]
+}
