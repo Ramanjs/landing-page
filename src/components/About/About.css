@@ -7,33 +7,60 @@
   text-align: center;
 }
 
+.about h3 {
+  margin-bottom: 0;
+}
+
 .about p {
   max-width: 50%;
   text-align: center;
 }
 
 .about-cards {
-  width: 80%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 50px 0;
 }
 
 .about-card {
-  width: 22%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #23232B;
   border-radius: 0.5em;
   padding: 0.5em 0.25em;
+  margin: 0.5em 0;
 }
 
 .about-card p {
-  margin-top: 0;
   max-width: 100%;
   text-align: center;
   font-size: calc(0.25rem + 1vmin);
+}
+
+.what-we-do {
+  width: 60%;
+  font-size: calc(0.35rem + 1vmin);
+  background-color: #23232B;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em 1.5em;
+  margin-bottom: 2em;
+}
+
+.what-we-do-list {
+  list-style-type: none;
+}
+
+.what-we-do-list li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -53,5 +80,17 @@
   .about-card {
     width: 80%;
     margin: 0.5em 0;
+  }
+
+  .what-we-do {
+    width: 80%;
+  }
+
+  .what-we-do-list {
+    padding: 0;
+  }
+
+  .what-we-do-list li {
+    height: auto;
   }
 }

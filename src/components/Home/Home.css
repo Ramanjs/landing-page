@@ -18,7 +18,15 @@
   line-height: 1.4em;
 }
 
+.daze-banner {
+  width: 60%;
+}
+
 @media screen and (max-width: 768px) {
+  .daze-banner {
+    width: 80%;
+  }
+
   .home p {
     max-width: 90%;
   }

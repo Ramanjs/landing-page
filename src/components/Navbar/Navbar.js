@@ -1,7 +1,7 @@
 import './Navbar.css';
 import hamburger from '../../assets/hamburger.svg';
 import { useState } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -11,10 +11,9 @@ const Navbar = () => {
       <span>Crypto</span>
       <img onClick={() => setIsNavExpanded(!isNavExpanded)} src={hamburger} className="hamburger" />
       <ul className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
-        <Link to="home" smooth={true}><li><a href="">Home</a></li></Link>
-        <Link to="about" smooth={true}><li><a href="">About Us</a></li></Link>
-        <Link to="daz" smooth={true}><li><a href="">Decentralised Art Zone</a></li></Link>
-        <Link to="contact" smooth={true}><li><a href="">Contact Us</a></li></Link>
+        <Link to="/" smooth={true}><li><a href="">Home</a></li></Link>
+        <Link to="/work" smooth={true}><li><a href="">Our Work</a></li></Link>
+        <Link to="/team" smooth={true}><li><a href="">Team</a></li></Link>
       </ul>
     </div>
   )

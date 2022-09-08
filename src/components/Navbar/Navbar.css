@@ -50,6 +50,10 @@
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hamburger {
   display: none;
   border: 0;
