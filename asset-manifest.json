@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.30f5e453.css",
-    "main.js": "/landing-page/static/js/main.ee0a3ae2.js",
+    "main.css": "/landing-page/static/css/main.e29b3d9a.css",
+    "main.js": "/landing-page/static/js/main.cf417cbd.js",
     "static/media/DAZE_white_svg 1.svg": "/landing-page/static/media/DAZE_white_svg 1.5a97e574ab6e53d7bb677407e25ab91f.svg",
+    "static/media/daze-logo.svg": "/landing-page/static/media/daze-logo.138b848784e35e942ff46a1d541ce388.svg",
     "index.html": "/landing-page/index.html",
     "static/media/bg.svg": "/landing-page/static/media/bg.0aa5e6ffe834642786a5.svg",
-    "static/media/hamburger.svg": "/landing-page/static/media/hamburger.6cfe33348d1093aa7fe3a67319ff25a6.svg",
-    "main.30f5e453.css.map": "/landing-page/static/css/main.30f5e453.css.map",
-    "main.ee0a3ae2.js.map": "/landing-page/static/js/main.ee0a3ae2.js.map"
+    "main.e29b3d9a.css.map": "/landing-page/static/css/main.e29b3d9a.css.map",
+    "main.cf417cbd.js.map": "/landing-page/static/js/main.cf417cbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.30f5e453.css",
-    "static/js/main.ee0a3ae2.js"
+    "static/css/main.e29b3d9a.css",
+    "static/js/main.cf417cbd.js"
   ]
 }
