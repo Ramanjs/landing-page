@@ -2,7 +2,7 @@
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ramanjs.github.io/landing-page/",
+  "homepage": "https://ramanjs.github.io/landing-page",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -16,6 +16,8 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

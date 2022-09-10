@@ -1,0 +1,27 @@
+.work {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.work h2 {
+  margin-top: 100px;
+}
+
+.work-slideshow {
+  width: 50%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.work-img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .work-slideshow {
+    width: 80%;
+  }
+}
