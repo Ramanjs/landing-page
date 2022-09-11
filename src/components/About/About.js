@@ -6,6 +6,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import LanguageIcon from '@mui/icons-material/Language';
 import TokenIcon from '@mui/icons-material/Token';
 import DoneIcon from '@mui/icons-material/Done';
+import LaunchIcon from '@mui/icons-material/Launch';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -46,6 +48,12 @@ const About = () => {
         </div>
       </div>
       <div className="news">
+        <h3 >In the News</h3>
+        <ul className="news-list">
+          <li><a href="https://www.youtube.com/watch?v=CQtNoKpsn-s&t=231s" className="cl-grey">NDTV <LaunchIcon className="news-icon"/></a></li>
+          <li><a href="https://www.mid-day.com/mumbai-guide/things-to-do/article/cryptoart-for-the-win-23173609" className="cl-grey">Midday Mumbai <LaunchIcon className="news-icon"/></a></li>
+          <li><a href="https://www.hindustantimes.com/lifestyle/art-culture/nft-art-the-charisma-comes-to-the-capital-101639765509031.html" className="cl-grey">HT <LaunchIcon className="news-icon"/></a></li>
+        </ul>
       </div>
       <div className="what-we-do">
         <h3 style={{textAlign: 'center'}}>What We Do</h3>
@@ -57,6 +65,11 @@ const About = () => {
           <li><DoneIcon style={{width: '25px'}}/>Strategic consultation on roadmaps, whitepaper etc</li>
           <li><DoneIcon style={{width: '25px'}}/>Community building</li>
         </ul>
+      </div>
+      <div className="menu-tiles">
+        <Link to="/work" className="menu-tile cl-grey">Our Work<LaunchIcon className="news-icon"/></Link>
+        <Link to="/team" className="menu-tile cl-grey">Team<LaunchIcon className="news-icon"/></Link>
+        <Link to="/team/#partners" className="menu-tile cl-grey">Our Partners<LaunchIcon className="news-icon"/></Link>
       </div>
     </div>
   )

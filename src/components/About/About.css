@@ -48,6 +48,28 @@
   border-radius: 1em;
   padding: 1em;
   margin: 1em 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.news-list a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 5px;
+}
+
+.news-icon {
+  width: 20px !important;
 }
 
 .what-we-do {
@@ -72,6 +94,26 @@
   gap: 10px;
 }
 
+.menu-tiles {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.menu-tile {
+  width: 32%;
+  font-size: calc(0.35rem + 1vmin);
+  background-color: #23232B;
+  border-radius: 0.5em;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
 @media screen and (max-width: 768px) {
 
   .about p {
@@ -91,6 +133,14 @@
     margin: 0.5em 0;
   }
 
+  .news {
+    width: 80%;
+  }
+
+  .news-list {
+    flex-direction: column;
+  }
+
   .what-we-do {
     width: 80%;
   }
@@ -101,5 +151,16 @@
 
   .what-we-do-list li {
     height: auto;
+  }
+
+  .menu-tiles {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-tile {
+    width: 100%;
+    margin: 0.25em 0;
   }
 }

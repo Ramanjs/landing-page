@@ -122,8 +122,7 @@ const Team = () => {
           ))}
         </ul>
       </div>
-      <div className="team-list"></div>
-      <div className="partners">
+      <div className="partners" id="partners">
         <h3 className="cl-grey">Our Partners</h3>
         <ul className="partners-list">
           {partners.map(partner => (
