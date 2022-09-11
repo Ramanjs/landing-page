@@ -22,22 +22,22 @@ const Work = () => {
   const images = [
     {
       id: 1,
-      src: img1,
+      src: 'https://res.cloudinary.com/deby9hi8w/image/upload/v1662896461/SK-16_as9glu.jpg',
       alt: 'event pic',
     },
     {
       id: 2,
-      src: img2,
+      src: 'https://res.cloudinary.com/deby9hi8w/image/upload/v1662896466/SK-166_qqcjt4.jpg',
       alt: 'event pic',
     },
     {
       id: 3,
-      src: img3,
+      src: 'https://res.cloudinary.com/deby9hi8w/image/upload/v1662896557/SK-72_ev4fvi.jpg',
       alt: 'event pic',
     },
     {
       id: 4,
-      src: img4,
+      src: 'https://res.cloudinary.com/deby9hi8w/image/upload/v1662896464/SK-28_pktsvv.jpg',
       alt: 'event pic',
     }
   ];

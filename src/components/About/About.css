@@ -41,6 +41,15 @@
   font-size: calc(0.25rem + 1vmin);
 }
 
+.news {
+  width: 60%;
+  font-size: calc(0.35rem + 1vmin);
+  background-color: #23232B;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em 1.5em;
+}
+
 .what-we-do {
   width: 60%;
   font-size: calc(0.35rem + 1vmin);

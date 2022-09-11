@@ -1,6 +1,8 @@
 .team {
   justify-content: flex-start;
   align-items: center;
+  background-color: white;
+  color: black;
 }
 
 .partners {
@@ -71,6 +73,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.team-members .partner-logo {
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {

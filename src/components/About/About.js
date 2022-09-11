@@ -45,6 +45,8 @@ const About = () => {
           <p className="cl-grey">Consulting brands and corporations, make their transition to web3 smoother</p>
         </div>
       </div>
+      <div className="news">
+      </div>
       <div className="what-we-do">
         <h3 style={{textAlign: 'center'}}>What We Do</h3>
         <ul className="what-we-do-list cl-grey">

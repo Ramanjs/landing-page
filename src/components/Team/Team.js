@@ -9,6 +9,8 @@ import iam from '../../assets/partner-logos/Logo_Block_Black.png';
 import corpoedge from '../../assets/partner-logos/logo-without-line.png';
 import bandwagon from '../../assets/partner-logos/no bg logo-01 (1).png';
 import jatinpathi from '../../assets/Jatin Pathi.png';
+import vishesh from '../../assets/Vishesh.jpg';
+import vishnu from '../../assets/Jatin .jpg';
 
 const Team = () => {
   const team = [
@@ -20,14 +22,14 @@ const Team = () => {
       twitter: 'https://twitter.com/RageOfPotato'
     },
     {
-      //logo: bandwagon, 
+      logo: vishesh, 
       name: 'Vishesh Chopra',
       title: 'Founder - COO',
       linkedin: 'https://www.linkedin.com/in/chopravishesh/',
       twitter: 'https://twitter.com/Vylkrom'
     },
     {
-      //logo: bandwagon, 
+      logo: vishnu, 
       name: 'Vishnu',
       title: 'CMO',
       linkedin: 'https://www.linkedin.com/in/vishnu-5b0864122/',
