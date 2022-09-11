@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.9b7f28fe.css",
-    "main.js": "/landing-page/static/js/main.adfff99d.js",
-    "static/media/SK-72.jpg": "/landing-page/static/media/SK-72.b98f02bce29ab0d78b7b.jpg",
+    "main.css": "/landing-page/static/css/main.ff6fd72c.css",
+    "main.js": "/landing-page/static/js/main.0d2eae27.js",
     "static/media/SK-28.jpg": "/landing-page/static/media/SK-28.6eb489b403badc161bfd.jpg",
     "static/media/SK-166.jpg": "/landing-page/static/media/SK-166.276235eeb07b7edae746.jpg",
+    "static/media/SK-72.jpg": "/landing-page/static/media/SK-72.4759faa954199f7d92b4.jpg",
     "static/media/kai_5220_flat-color.png": "/landing-page/static/media/kai_5220_flat-color.03b071db9346fc43d93f.png",
     "static/media/SK-16.jpg": "/landing-page/static/media/SK-16.a4d0aedeb7bfbda07094.jpg",
+    "static/media/Jatin .jpg": "/landing-page/static/media/Jatin .77da6adcd48cf109c286.jpg",
+    "static/media/Vishesh.jpg": "/landing-page/static/media/Vishesh.a7c0ef0180b86d70dfb8.jpg",
     "static/media/jugadu Logo_Circle.png": "/landing-page/static/media/jugadu Logo_Circle.c4767bdef6cb16a51f6a.png",
     "static/media/no bg logo-01 (1).png": "/landing-page/static/media/no bg logo-01 (1).f403469c3c34457274a9.png",
     "static/media/iDB-R2Yx.png": "/landing-page/static/media/iDB-R2Yx.aa9a91c8fb38cb3a8cd4.png",
@@ -21,11 +23,11 @@
     "static/media/daze-logo.svg": "/landing-page/static/media/daze-logo.138b848784e35e942ff46a1d541ce388.svg",
     "index.html": "/landing-page/index.html",
     "static/media/bg.svg": "/landing-page/static/media/bg.0aa5e6ffe834642786a5.svg",
-    "main.9b7f28fe.css.map": "/landing-page/static/css/main.9b7f28fe.css.map",
-    "main.adfff99d.js.map": "/landing-page/static/js/main.adfff99d.js.map"
+    "main.ff6fd72c.css.map": "/landing-page/static/css/main.ff6fd72c.css.map",
+    "main.0d2eae27.js.map": "/landing-page/static/js/main.0d2eae27.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b7f28fe.css",
-    "static/js/main.adfff99d.js"
+    "static/css/main.ff6fd72c.css",
+    "static/js/main.0d2eae27.js"
   ]
 }
