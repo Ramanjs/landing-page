@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.ff6fd72c.css",
-    "main.js": "/landing-page/static/js/main.0d2eae27.js",
+    "main.css": "/landing-page/static/css/main.d6876dfd.css",
+    "main.js": "/landing-page/static/js/main.92f1e9b9.js",
     "static/media/SK-28.jpg": "/landing-page/static/media/SK-28.6eb489b403badc161bfd.jpg",
     "static/media/SK-166.jpg": "/landing-page/static/media/SK-166.276235eeb07b7edae746.jpg",
     "static/media/SK-72.jpg": "/landing-page/static/media/SK-72.4759faa954199f7d92b4.jpg",
@@ -22,12 +22,10 @@
     "static/media/slick.woff": "/landing-page/static/media/slick.295183786cd8a1389865.woff",
     "static/media/daze-logo.svg": "/landing-page/static/media/daze-logo.138b848784e35e942ff46a1d541ce388.svg",
     "index.html": "/landing-page/index.html",
-    "static/media/bg.svg": "/landing-page/static/media/bg.0aa5e6ffe834642786a5.svg",
-    "main.ff6fd72c.css.map": "/landing-page/static/css/main.ff6fd72c.css.map",
-    "main.0d2eae27.js.map": "/landing-page/static/js/main.0d2eae27.js.map"
+    "static/media/bg.svg": "/landing-page/static/media/bg.0aa5e6ffe834642786a5.svg"
   },
   "entrypoints": [
-    "static/css/main.ff6fd72c.css",
-    "static/js/main.0d2eae27.js"
+    "static/css/main.d6876dfd.css",
+    "static/js/main.92f1e9b9.js"
   ]
 }
