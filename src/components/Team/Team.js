@@ -109,13 +109,15 @@ const Team = () => {
           {team.map(member => (
             <li className="partner">
               {member.logo ? <img src={member.logo} alt="" className="partner-logo" /> : null}
-              <span>{member.name}</span>
-              <h4 className="cl-grey">{member.title}</h4>
-              <div className="partner-socials">
-                {member.linkedin ?
-                  <a href={member.linkedin}><LinkedInIcon className="partner-social-icon" /></a> : null}
-                {member.twitter ?
-                  <a href={member.twitter}><TwitterIcon className="partner-social-icon" /></a> : null}
+              <div>
+                <span>{member.name}</span>
+                <h4 className="cl-grey">{member.title}</h4>
+                <div className="partner-socials">
+                  {member.linkedin ?
+                    <a href={member.linkedin}><LinkedInIcon className="partner-social-icon" /></a> : null}
+                  {member.twitter ?
+                    <a href={member.twitter}><TwitterIcon className="partner-social-icon" /></a> : null}
+                </div>
               </div>
             </li>
           ))}
@@ -127,13 +129,15 @@ const Team = () => {
           {partners.map(partner => (
             <li className="partner">
               {partner.logo ? <img src={partner.logo} alt="" className="partner-logo" /> : null}
-              <span>{partner.name}</span>
-              <h4 className="cl-grey">{partner.title}</h4>
-              <div className="partner-socials">
-                {partner.linkedin ?
-                  <a href={partner.linkedin}><LinkedInIcon className="partner-social-icon" /></a> : null}
-                {partner.twitter ?
-                  <a href={partner.twitter}><TwitterIcon className="partner-social-icon" /></a> : null}
+              <div style={{marginTop: '10px'}}>
+                <span>{partner.name}</span>
+                <h4 className="cl-grey">{partner.title}</h4>
+                <div className="partner-socials">
+                  {partner.linkedin ?
+                    <a href={partner.linkedin}><LinkedInIcon className="partner-social-icon" style={{color: 'black'}}/></a> : null}
+                  {partner.twitter ?
+                    <a href={partner.twitter}><TwitterIcon className="partner-social-icon" style={{color: 'black'}}/></a> : null}
+                </div>
               </div>
             </li>
           ))}

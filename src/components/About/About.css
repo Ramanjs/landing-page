@@ -110,14 +110,14 @@
 .menu-tiles {
   width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 1em 0;
   gap: 10px;
 }
 
 .menu-tile {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
   font-size: calc(0.35rem + 1vmin);
   background-color: #23232B;
   border-radius: 0.5em;
