@@ -8,6 +8,9 @@ import TokenIcon from '@mui/icons-material/Token';
 import DoneIcon from '@mui/icons-material/Done';
 import LaunchIcon from '@mui/icons-material/Launch';
 import { Link } from 'react-router-dom';
+import ndtv from '../../assets/ndtv.png';
+import midday from '../../assets/midday.png';
+import ht from '../../assets/ht.png';
 
 const About = () => {
   return (
@@ -50,9 +53,9 @@ const About = () => {
       <div className="news">
         <h3 >In the News</h3>
         <ul className="news-list">
-          <li><a href="https://www.youtube.com/watch?v=CQtNoKpsn-s&t=231s" className="cl-grey">NDTV <LaunchIcon className="news-icon"/></a></li>
-          <li><a href="https://www.mid-day.com/mumbai-guide/things-to-do/article/cryptoart-for-the-win-23173609" className="cl-grey">Midday Mumbai <LaunchIcon className="news-icon"/></a></li>
-          <li><a href="https://www.hindustantimes.com/lifestyle/art-culture/nft-art-the-charisma-comes-to-the-capital-101639765509031.html" className="cl-grey">HT <LaunchIcon className="news-icon"/></a></li>
+          <li><img src={ndtv} alt="icon" className="news-img"/><a href="https://www.youtube.com/watch?v=CQtNoKpsn-s&t=231s">NDTV <LaunchIcon className="news-icon"/></a></li>
+          <li><img src={midday} alt="icon" className="news-img"/><a href="https://www.mid-day.com/mumbai-guide/things-to-do/article/cryptoart-for-the-win-23173609">Midday Mumbai <LaunchIcon className="news-icon"/></a></li>
+          <li><img src={ht} alt="icon" className="news-img"/><a href="https://www.hindustantimes.com/lifestyle/art-culture/nft-art-the-charisma-comes-to-the-capital-101639765509031.html">HT <LaunchIcon className="news-icon"/></a></li>
         </ul>
       </div>
       <div className="what-we-do">
@@ -67,9 +70,9 @@ const About = () => {
         </ul>
       </div>
       <div className="menu-tiles">
-        <Link to="/work" className="menu-tile cl-grey">Our Work<LaunchIcon className="news-icon"/></Link>
-        <Link to="/team" className="menu-tile cl-grey">Team<LaunchIcon className="news-icon"/></Link>
-        <Link to="/team/#partners" className="menu-tile cl-grey">Our Partners<LaunchIcon className="news-icon"/></Link>
+        <Link to="/work" className="menu-tile">Our Work<LaunchIcon className="news-icon"/></Link>
+        <Link to="/team" className="menu-tile">Team<LaunchIcon className="news-icon"/></Link>
+        <Link to="/team/#partners" className="menu-tile">Our Partners<LaunchIcon className="news-icon"/></Link>
       </div>
     </div>
   )

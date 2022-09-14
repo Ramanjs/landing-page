@@ -8,9 +8,8 @@ import kai from '../../assets/partner-logos/kai_5220_flat-color.png';
 import iam from '../../assets/partner-logos/Logo_Block_Black.png';
 import corpoedge from '../../assets/partner-logos/logo-without-line.png';
 import bandwagon from '../../assets/partner-logos/no bg logo-01 (1).png';
-import jatinpathi from '../../assets/Jatin Pathi.png';
+import jatinpathi from '../../assets/Jatin .jpg';
 import vishesh from '../../assets/Vishesh.jpg';
-import vishnu from '../../assets/Jatin .jpg';
 
 const Team = () => {
   const team = [
@@ -29,7 +28,7 @@ const Team = () => {
       twitter: 'https://twitter.com/Vylkrom'
     },
     {
-      logo: vishnu, 
+      //logo: vishnu, 
       name: 'Vishnu',
       title: 'CMO',
       linkedin: 'https://www.linkedin.com/in/vishnu-5b0864122/',
@@ -105,7 +104,7 @@ const Team = () => {
   return (
     <div className="container team">
       <div className="team-members">
-        <h3 className="cl-grey">Team</h3>
+        <h2 className="cl-grey">Team</h2>
         <ul className="partners-list">
           {team.map(member => (
             <li className="partner">
@@ -123,7 +122,7 @@ const Team = () => {
         </ul>
       </div>
       <div className="partners" id="partners">
-        <h3 className="cl-grey">Our Partners</h3>
+        <h2 className="cl-grey">Our Partners</h2>
         <ul className="partners-list">
           {partners.map(partner => (
             <li className="partner">
