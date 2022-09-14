@@ -109,7 +109,7 @@ const Team = () => {
           {team.map(member => (
             <li className="partner">
               {member.logo ? <img src={member.logo} alt="" className="partner-logo" /> : null}
-              <div>
+              <div className="partner-container">
                 <span>{member.name}</span>
                 <h4 className="cl-grey">{member.title}</h4>
                 <div className="partner-socials">
@@ -129,7 +129,7 @@ const Team = () => {
           {partners.map(partner => (
             <li className="partner">
               {partner.logo ? <img src={partner.logo} alt="" className="partner-logo" /> : null}
-              <div style={{marginTop: '10px'}}>
+              <div className="partner-container">
                 <span>{partner.name}</span>
                 <h4 className="cl-grey">{partner.title}</h4>
                 <div className="partner-socials">

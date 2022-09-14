@@ -65,6 +65,14 @@
   cursor: pointer;
 }
 
+.partner-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .team-members {
   width: 60%;
   font-size: calc(0.5rem + 1vmin);
