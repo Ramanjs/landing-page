@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.e12fd07e.css",
+    "main.css": "/landing-page/static/css/main.3ba8b860.css",
     "main.js": "/landing-page/static/js/main.ca9627b7.js",
     "static/media/SK-28.jpg": "/landing-page/static/media/SK-28.6eb489b403badc161bfd.jpg",
     "static/media/SK-166.jpg": "/landing-page/static/media/SK-166.276235eeb07b7edae746.jpg",
@@ -26,7 +26,7 @@
     "static/media/bg.svg": "/landing-page/static/media/bg.0aa5e6ffe834642786a5.svg"
   },
   "entrypoints": [
-    "static/css/main.e12fd07e.css",
+    "static/css/main.3ba8b860.css",
     "static/js/main.ca9627b7.js"
   ]
 }
