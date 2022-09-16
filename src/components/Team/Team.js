@@ -112,7 +112,7 @@ const Team = () => {
         <ul className="partners-list">
           {team.map(member => (
             <li className="partner">
-              {member.logo ? <img src={member.logo} alt="" className="partner-logo" /> : null}
+              {member.logo ? <img src={member.logo} alt="" className="br-50" /> : null}
               <div className="partner-container">
                 <span>{member.name}</span>
                 <h4 className="cl-grey">{member.title}</h4>
