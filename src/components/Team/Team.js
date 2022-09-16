@@ -8,6 +8,8 @@ import kai from '../../assets/partner-logos/kai_5220_flat-color.png';
 import iam from '../../assets/partner-logos/Logo_Block_Black.png';
 import corpoedge from '../../assets/partner-logos/logo-without-line.png';
 import bandwagon from '../../assets/partner-logos/no bg logo-01 (1).png';
+import beunic from '../../assets/partner-logos/beunic.png';
+import smit from '../../assets/partner-logos/Smit.jpeg';
 import jatinpathi from '../../assets/Jatin .jpg';
 import vishesh from '../../assets/Vishesh.jpg';
 
@@ -67,6 +69,7 @@ const Team = () => {
       twitter: 'https://twitter.com/kaigani'
     },
     {
+      logo: beunic,
       name: 'Beunic.in',
       title: 'Merch Partner',
       linkedin: 'https://www.linkedin.com/company/beunic/',
@@ -80,6 +83,7 @@ const Team = () => {
       twitter: ''
     },
     {
+      logo: smit,
       name: 'Smit Khakhkhar',
       title: 'Technical Advisor',
       linkedin: 'https://www.linkedin.com/in/smit-khakhkhar-3a4040111/',
