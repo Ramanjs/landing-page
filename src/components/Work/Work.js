@@ -2,10 +2,6 @@ import Slider from 'react-slick';
 import './Work.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import img1 from '../../assets/images/SK-16.jpg';
-import img2 from '../../assets/images/SK-166.jpg';
-import img3 from '../../assets/images/SK-28.jpg';
-import img4 from '../../assets/images/SK-72.jpg';
 
 const Work = () => {
 

@@ -12,6 +12,7 @@ import beunic from '../../assets/partner-logos/beunic.png';
 import smit from '../../assets/partner-logos/Smit.jpeg';
 import jatinpathi from '../../assets/Jatin .jpg';
 import vishesh from '../../assets/Vishesh.jpg';
+import vishnu from '../../assets/vishnu.jpeg';
 
 const Team = () => {
   const team = [
@@ -30,7 +31,7 @@ const Team = () => {
       twitter: 'https://twitter.com/Vylkrom'
     },
     {
-      //logo: vishnu, 
+      logo: vishnu, 
       name: 'Vishnu',
       title: 'CMO',
       linkedin: 'https://www.linkedin.com/in/vishnu-5b0864122/',
