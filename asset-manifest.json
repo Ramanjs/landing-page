@@ -1,15 +1,12 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.db4a8011.css",
-    "main.js": "/landing-page/static/js/main.212eddeb.js",
-    "static/media/SK-28.jpg": "/landing-page/static/media/SK-28.6eb489b403badc161bfd.jpg",
-    "static/media/SK-166.jpg": "/landing-page/static/media/SK-166.276235eeb07b7edae746.jpg",
-    "static/media/SK-72.jpg": "/landing-page/static/media/SK-72.4759faa954199f7d92b4.jpg",
+    "main.css": "/landing-page/static/css/main.ca481f60.css",
+    "main.js": "/landing-page/static/js/main.ffe085be.js",
     "static/media/kai_5220_flat-color.png": "/landing-page/static/media/kai_5220_flat-color.03b071db9346fc43d93f.png",
-    "static/media/SK-16.jpg": "/landing-page/static/media/SK-16.a4d0aedeb7bfbda07094.jpg",
     "static/media/Vishesh.jpg": "/landing-page/static/media/Vishesh.bf52e24108b53f698908.jpg",
     "static/media/Jatin .jpg": "/landing-page/static/media/Jatin .77da6adcd48cf109c286.jpg",
     "static/media/beunic.png": "/landing-page/static/media/beunic.fa92bc3398a2d49740d1.png",
+    "static/media/vishnu.jpeg": "/landing-page/static/media/vishnu.81450904d9ac578f3a70.jpeg",
     "static/media/jugadu Logo_Circle.png": "/landing-page/static/media/jugadu Logo_Circle.c4767bdef6cb16a51f6a.png",
     "static/media/Smit.jpeg": "/landing-page/static/media/Smit.ed8cf580a10b8aa83b0c.jpeg",
     "static/media/no bg logo-01 (1).png": "/landing-page/static/media/no bg logo-01 (1).ce992d0ec9eb8655a142.png",
@@ -23,12 +20,12 @@
     "static/media/slick.eot": "/landing-page/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/landing-page/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/landing-page/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/daze-logo.svg": "/landing-page/static/media/daze-logo.138b848784e35e942ff46a1d541ce388.svg",
     "index.html": "/landing-page/index.html",
+    "static/media/daze-logo.svg": "/landing-page/static/media/daze-logo.138b848784e35e942ff46a1d541ce388.svg",
     "static/media/bg.svg": "/landing-page/static/media/bg.0aa5e6ffe834642786a5.svg"
   },
   "entrypoints": [
-    "static/css/main.db4a8011.css",
-    "static/js/main.212eddeb.js"
+    "static/css/main.ca481f60.css",
+    "static/js/main.ffe085be.js"
   ]
 }
