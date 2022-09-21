@@ -4,11 +4,11 @@ import Home from './components/Home/Home';
 import Team from './components/Team/Team';
 import Work from './components/Work/Work';
 import Footer from './components/Footer/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <HashRouter basename="/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/team" element={<Team />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

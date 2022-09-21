@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2395d1a6.css",
-    "main.js": "/static/js/main.834262a3.js",
+    "main.js": "/static/js/main.28420120.js",
     "static/media/kai_5220_flat-color.png": "/static/media/kai_5220_flat-color.03b071db9346fc43d93f.png",
     "static/media/Vishesh.jpg": "/static/media/Vishesh.bf52e24108b53f698908.jpg",
     "static/media/Jatin .jpg": "/static/media/Jatin .77da6adcd48cf109c286.jpg",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.2395d1a6.css",
-    "static/js/main.834262a3.js"
+    "static/js/main.28420120.js"
   ]
 }
