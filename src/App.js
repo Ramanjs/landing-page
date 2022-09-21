@@ -8,7 +8,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

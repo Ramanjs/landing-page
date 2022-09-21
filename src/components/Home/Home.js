@@ -2,8 +2,14 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 import About from '../About/About';
 import daze from '../../assets/DAZE_white_svg 1.svg';
+import { useEffect } from 'react';
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = 'Home - Decentralized Art Zone';
+  });
+
   return (
     <div>
       <div className="container home" id="home">

@@ -1,4 +1,5 @@
 import './Team.css';
+import { useEffect } from 'react';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import cai from '../../assets/partner-logos/CAI_Lockup_RGB_Black.png';
@@ -15,6 +16,11 @@ import vishesh from '../../assets/Vishesh.jpg';
 import vishnu from '../../assets/vishnu.jpeg';
 
 const Team = () => {
+
+  useEffect(() => {
+    document.title = 'Team - Decentralized Art Zone';
+  });
+
   const team = [
     {
       logo: jatinpathi, 

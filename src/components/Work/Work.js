@@ -2,8 +2,13 @@ import Slider from 'react-slick';
 import './Work.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { useEffect } from 'react';
 
 const Work = () => {
+
+  useEffect(() => {
+    document.title = 'Our Work - Decentralized Art Zone';
+  });
 
   const settings = {
     infinite: true,

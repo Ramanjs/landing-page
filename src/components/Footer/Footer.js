@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="socials">
         <h3>Connect with us</h3>
         <div className="socials-container">
-          <TwitterIcon className="social-icon"/>
-          <LinkedInIcon className="social-icon"/>
-          <InstagramIcon className="social-icon"/>
+          <a href="https://twitter.com/dazeindia" className="social-icon"><TwitterIcon /></a>
+          <a href="https://www.linkedin.com/company/dazeweb3" className="social-icon"><LinkedInIcon /></a>
+          <a href="https://www.instagram.com/daze_india/" className="social-icon"><InstagramIcon /></a>
         </div>
       </div>
       <form action="">

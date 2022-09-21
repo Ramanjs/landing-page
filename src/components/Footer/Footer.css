@@ -19,6 +19,10 @@
   align-items: center;
 }
 
+.social-icon svg {
+  width: 100%;
+}
+
 .socials-container {
   display: flex;
   width: 80%;
@@ -32,6 +36,7 @@
 .social-icon {
   width: 25% !important;
   cursor: pointer;
+  color: white;
 }
 
 form {
