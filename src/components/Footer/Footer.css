@@ -43,6 +43,21 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.join-msg::after {
+  content: 'registered successfully';
+  position: absolute;
+  left: 0;
+  bottom: 105%;
+  display: block;
+  background-color: black;
+  color: green;
+  padding: 1em 1.5em;
+  font-size: calc(0.10rem + 1vmin);
+  border-radius: 4px;
+  z-index: 1;
 }
 
 .email-input {
